@@ -1,0 +1,141 @@
+*
+{
+    font-family: 'Open Sans', sans-serif;
+    padding:0;
+    margin:0;
+    color:white;
+}
+.work
+{
+    z-index: 1;
+    height:100vh;
+    position: fixed;
+    overflow-y: scroll;
+}
+.sml
+{
+    background-color: aquamarine;
+    border:1px solid black;
+    padding:25px;
+}
+.navb
+{   gap:2rem;
+    padding:16px 16px;
+    background-color: #1c1d1f;
+    display:flex;
+    justify-content: space-between;
+}
+.crsdet,.rate,.prog
+{
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.det
+{
+    flex:1;
+    display:flex;
+}
+.empty
+{
+    max-width: 250px;
+    flex:1 0;
+    min-width: 1px;
+}
+img
+{
+    flex-shrink: 1;
+}
+.crsdet
+{
+    width:350px;
+    flex-shrink: 1;
+    /* padding-left:10px; */
+    /* border-left:1px white solid; */
+}
+button
+{
+    background-color: none;
+    border:none;
+}
+.vertbar
+{
+    height:34px;
+    width:1px;
+    background-color: white;
+    flex-shrink: 1;
+}
+.media 
+{
+    display:flex;
+    justify-content: right;
+}
+h5
+{
+    cursor: pointer;
+}
+.my
+{
+    color:black;
+    padding:16px;
+    border: 1px black solid;
+    border-top: none;
+}
+.dive
+{
+    display: flex;
+    padding:20px;
+    /* height:50px; */
+    border: 1px black solid;
+}
+h4,h5,p
+{
+
+    color:black;
+}
+h4
+{
+    font-size: 16px;
+}
+h5
+{
+    font-size: 14px;
+}
+p
+{
+    font-size: 12px;
+    overflow-y: scroll;
+}
+.g 
+{
+    color:black;
+    width:200px;
+    height:100px;
+    overflow-y: scroll;
+}
+
+.sidemedia
+{
+    width:300px;
+    position:fixed;
+    background-color: rgb(233, 229, 224);
+}
+
+.restop
+{
+    background-color: rgb(233, 229, 224);
+    width:300px;
+    /* top:0px; */
+    position:fixed;
+    height:100vh;
+    overflow-y: scroll;
+}
+.firstel
+{
+    padding: 20px;
+}
+.secondwritten
+{
+    color:black;
+    overflow-x: auto;
+    margin-right: 300px;
+}
